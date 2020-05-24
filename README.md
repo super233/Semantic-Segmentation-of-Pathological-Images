@@ -1,8 +1,10 @@
 # Semantic Segmentation of Pathological Images
 
-[中文README](./README-zh.md)
+[中文](./README-zh.md)
 
-Implemented by Pytorch, **it can also be a tutorial of semantic segmentation**, wish you like it​ :smile:.
+Implemented by Pytorch, **it can also be a tutorial of semantic segmentation**.
+
+If you like it, please star me. :smile:
 
 ## Datasets
 
@@ -34,7 +36,7 @@ There are some datasets from kaggle and other websites.
 ## Preparations
 
 - After downloading datasets, generate the `train.json` and `val.json` for each dataset.
-- For each dataset, modify its abstract path in corresponding class. 
+- For each dataset, modify its absolute path in corresponding class. 
 
 ## Usages
 
