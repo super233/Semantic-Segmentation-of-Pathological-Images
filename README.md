@@ -35,7 +35,19 @@ There are some datasets from kaggle and other websites.
 
 ## Preparations
 
-- After downloading datasets, generate the `train.json` and `val.json` for each dataset.
+- After downloading datasets, generate the `train.json` and `val.json` for each dataset with the following format:
+```json
+[
+    {
+        "image_path": "/home/tangwenqi/workspace/data/small_g4/coco_train/JPEGImages/20180550-PASM.jpg",
+        "mask_path": "/home/tangwenqi/workspace/data/small_g4/coco_train/Labels/20180550-PASM.png"
+    },
+    {
+        "image_path": "/home/tangwenqi/workspace/data/small_g4/coco_train/JPEGImages/20180620-PASM.jpg",
+        "mask_path": "/home/tangwenqi/workspace/data/small_g4/coco_train/Labels/20180620-PASM.png"
+    },
+]
+```
 - For each dataset, modify its absolute path in corresponding class. 
 
 ## Usages
